@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Form from '../components/Form'
 import Portfolio from '../components/Portfolio'
 
 
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
        <Portfolio />
+       <Form />
   </>
   )
 }
